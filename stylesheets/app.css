@@ -1,0 +1,104 @@
+/* line 6, ../sass/app.scss */
+div {
+  display: block;
+}
+
+/* line 10, ../sass/app.scss */
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, ../sass/app.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 22, ../sass/app.scss */
+.main_content {
+  background-color: #ededed;
+  margin-top: 51px;
+  text-align: center;
+  overflow: hidden;
+  padding: 0px;
+}
+
+/* line 31, ../sass/app.scss */
+.home {
+  position: relative;
+  clear: both;
+  max-width: 1120px;
+  margin: 0px auto;
+}
+
+/* line 39, ../sass/app.scss */
+.sub_content {
+  position: relative;
+  overflow: hidden;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  border-color: rgba(0, 0, 0, 0.14);
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* line 52, ../sass/app.scss */
+.skill {
+  border: none;
+  max-height: 460px;
+  background-color: #ededed;
+}
+
+/* line 58, ../sass/app.scss */
+.exp {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  background-color: #ededed;
+  border: 1px solid #dcdcdc;
+}
+
+/* line 65, ../sass/app.scss */
+.exp_logo {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  float: left;
+  height: auto;
+  margin: 1px 1px;
+}
+
+/* line 74, ../sass/app.scss */
+.exp_logo:hover {
+  box-shadow: 0 0 38px rgba(0, 0, 0, 0.18) inset;
+  transition: all .15s ease;
+}
+
+/* line 80, ../sass/app.scss */
+.sina {
+  width: 727px;
+  height: 320px;
+  float: left;
+}
+
+/* line 85, ../sass/app.scss */
+.weibo {
+  width: 727px;
+  height: 320px;
+  float: left;
+}
+
+/* line 90, ../sass/app.scss */
+.pace {
+  width: 363px;
+  height: 642px;
+  float: right;
+}
+
+/* line 95, ../sass/app.scss */
+.others {
+  width: 372px;
+  height: 372px;
+}
