@@ -36,6 +36,7 @@ img {
 .home {
 	position: relative;
 	clear: both;
+	// max-width: 960px;
 	max-width: 1120px;
 	// min-width: 1120px;
 	margin: 0px auto;
@@ -59,22 +60,28 @@ img {
 	max-height: 460px;
 }
 
-.sina {
-	width: 727px;
-	height: 320px;
-	float: left;
-}
-.weibo {
-	width: 727px;
-	height: 320px;
-	float: left;
-}
-.pace {
-	width: 363px;
-	height: 642px;
-	float: right;
+
+.exp {
+	border: none;
 }
 
+.exp_item_left, .exp_item_mid, .exp_item_right {
+	width: 33%;
+	float: left;
+	margin: auto;
+}
+
+.exp_item {
+	border-radius: 50%;
+	background-color: #ffffff;
+	padding: 3%;
+	margin: 15%;
+	border: 1px solid $item-border;
+	border-top: none;
+	border-bottom: none;
+	// border-left: none;
+	border-right: none;
+}
 
 
 .project_left {
@@ -164,6 +171,12 @@ img {
 	transition: all .15s ease;
 	
 }
+.exp_item:hover {
+	// box-shadow: 0 0 38px rgba(0.1,0.1,0.1,.18) inset;
+	// margin: 5%;
+	padding: 0%;
+		// transition: all .15s ease;
 
+}
 
 
