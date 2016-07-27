@@ -24,6 +24,12 @@ img {
 	// height: auto;
 }
 
+footer {
+	height: 200px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
 .main_content {
 	background-color: $html-background-color;
 	margin-top: 51px;
@@ -74,15 +80,20 @@ img {
 .exp_item {
 	border-radius: 50%;
 	background-color: #ffffff;
-	padding: 3%;
-	margin: 15%;
+	padding: 2%;
+	margin: 10%;
 	border: 1px solid $item-border;
 	border-top: none;
 	border-bottom: none;
-	// border-left: none;
+	border-left: none;
 	border-right: none;
 }
 
+.exp_item:hover {
+	box-shadow: 0 0 38px rgba(0.1,0.1,0.1,.18) inset;
+	margin: 5%;  
+	transition: all .25s ease;
+}
 
 .project_left {
 	width: 66%;
@@ -170,13 +181,6 @@ img {
 	box-shadow: 0 0 38px rgba(0.1,0.1,0.1,.18) inset;
 	transition: all .15s ease;
 	
-}
-.exp_item:hover {
-	// box-shadow: 0 0 38px rgba(0.1,0.1,0.1,.18) inset;
-	// margin: 5%;
-	padding: 0%;
-		// transition: all .15s ease;
-
 }
 
 

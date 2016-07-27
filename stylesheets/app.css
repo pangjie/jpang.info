@@ -17,6 +17,13 @@ img {
 }
 
 /* line 27, ../sass/app.scss */
+footer {
+  height: 200px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* line 33, ../sass/app.scss */
 .main_content {
   background-color: #ededed;
   margin-top: 51px;
@@ -25,7 +32,7 @@ img {
   padding: 0px;
 }
 
-/* line 36, ../sass/app.scss */
+/* line 42, ../sass/app.scss */
 .home {
   position: relative;
   clear: both;
@@ -33,7 +40,7 @@ img {
   margin: 0px auto;
 }
 
-/* line 45, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 .sub_content {
   position: relative;
   overflow: hidden;
@@ -46,61 +53,69 @@ img {
   box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
 }
 
-/* line 58, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 .skill {
   border: none;
   max-height: 460px;
 }
 
-/* line 64, ../sass/app.scss */
+/* line 70, ../sass/app.scss */
 .exp {
   border: none;
 }
 
-/* line 68, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
 .exp_item_left, .exp_item_mid, .exp_item_right {
   width: 33%;
   float: left;
   margin: auto;
 }
 
-/* line 74, ../sass/app.scss */
+/* line 80, ../sass/app.scss */
 .exp_item {
   border-radius: 50%;
   background-color: #ffffff;
-  padding: 3%;
-  margin: 15%;
+  padding: 2%;
+  margin: 10%;
   border: 1px solid #efefef;
   border-top: none;
   border-bottom: none;
+  border-left: none;
   border-right: none;
 }
 
-/* line 87, ../sass/app.scss */
+/* line 92, ../sass/app.scss */
+.exp_item:hover {
+  box-shadow: 0 0 38px rgba(0, 0, 0, 0.18) inset;
+  margin: 5%;
+  transition: all .25s ease;
+}
+
+/* line 98, ../sass/app.scss */
 .project_left {
   width: 66%;
   float: left;
   background-color: #ffffff;
 }
 
-/* line 92, ../sass/app.scss */
+/* line 103, ../sass/app.scss */
 .project_right {
   width: 34%;
   float: right;
   background-color: #ffffff;
 }
 
-/* line 98, ../sass/app.scss */
+/* line 109, ../sass/app.scss */
 .project_left_top {
   width: 100%;
 }
 
-/* line 101, ../sass/app.scss */
+/* line 112, ../sass/app.scss */
 .project_left_bottom {
   width: 100%;
 }
 
-/* line 105, ../sass/app.scss */
+/* line 116, ../sass/app.scss */
 .project_right_top {
   border: 1px solid #efefef;
   border-left: none;
@@ -109,12 +124,12 @@ img {
   height: 640px;
   overflow: hidden;
 }
-/* line 114, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 .project_right_top img {
   max-height: 100%;
 }
 
-/* line 119, ../sass/app.scss */
+/* line 130, ../sass/app.scss */
 .project_right_bottom {
   border: 1px solid #efefef;
   border-top: none;
@@ -124,14 +139,14 @@ img {
   height: 405px;
 }
 
-/* line 130, ../sass/app.scss */
+/* line 141, ../sass/app.scss */
 .project_left_top_1 {
   border: 1px solid #efefef;
   width: 100%;
   height: 320px;
 }
 
-/* line 139, ../sass/app.scss */
+/* line 150, ../sass/app.scss */
 .project_left_top_2 {
   border: 1px solid #efefef;
   border-top: none;
@@ -139,7 +154,7 @@ img {
   height: 320px;
 }
 
-/* line 148, ../sass/app.scss */
+/* line 159, ../sass/app.scss */
 .project_left_bottom_1 {
   border: 1px solid #efefef;
   border-top: none;
@@ -148,7 +163,7 @@ img {
   height: 405px;
 }
 
-/* line 158, ../sass/app.scss */
+/* line 169, ../sass/app.scss */
 .project_left_bottom_2 {
   border: 1px solid #efefef;
   border-top: none;
@@ -158,13 +173,8 @@ img {
   height: 405px;
 }
 
-/* line 169, ../sass/app.scss */
+/* line 180, ../sass/app.scss */
 .project_item:hover {
   box-shadow: 0 0 38px rgba(0, 0, 0, 0.18) inset;
   transition: all .15s ease;
-}
-
-/* line 174, ../sass/app.scss */
-.exp_item:hover {
-  padding: 0%;
 }
