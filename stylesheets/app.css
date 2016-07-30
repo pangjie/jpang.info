@@ -1,30 +1,34 @@
-/* line 10, ../sass/app.scss */
+/* line 7, ../sass/app.scss */
+body {
+  width: 100%;
+}
+
+/* line 11, ../sass/app.scss */
 div {
   display: block;
   overflow: hidden;
 }
 
-/* line 15, ../sass/app.scss */
+/* line 16, ../sass/app.scss */
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
   margin: 0;
   padding: 0;
 }
 
-/* line 20, ../sass/app.scss */
+/* line 21, ../sass/app.scss */
 img {
   max-width: 100%;
-  max-height: 100%;
-  min-height: 100%;
+  height: auto;
 }
 
-/* line 27, ../sass/app.scss */
+/* line 28, ../sass/app.scss */
 footer {
-  height: 200px;
+  height: 400px;
   background-color: #000000;
   color: #ffffff;
 }
 
-/* line 33, ../sass/app.scss */
+/* line 34, ../sass/app.scss */
 .main_content {
   background-color: #ededed;
   margin-top: 51px;
@@ -33,15 +37,15 @@ footer {
   padding: 0px;
 }
 
-/* line 42, ../sass/app.scss */
+/* line 44, ../sass/app.scss */
 .home {
   position: relative;
   clear: both;
-  max-width: 1120px;
+  max-width: 960px;
   margin: 0px auto;
 }
 
-/* line 51, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 .sub_content {
   position: relative;
   overflow: hidden;
@@ -49,30 +53,30 @@ footer {
   margin-left: 12px;
   margin-right: 12px;
   border-radius: 12px;
-  border: 1px solid #efefef;
+  margin-bottom: 12px;
   border-color: rgba(0, 0, 0, 0.14);
   box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
 }
 
-/* line 64, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 .skill {
   border: none;
   max-height: 460px;
 }
 
-/* line 70, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 .exp {
   border: none;
 }
 
-/* line 74, ../sass/app.scss */
+/* line 77, ../sass/app.scss */
 .exp_item_left, .exp_item_mid, .exp_item_right {
   width: 33%;
   float: left;
   margin: auto;
 }
 
-/* line 80, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 .exp_item {
   border-radius: 50%;
   background-color: #ffffff;
@@ -85,112 +89,38 @@ footer {
   border-right: none;
 }
 
-/* line 92, ../sass/app.scss */
+/* line 95, ../sass/app.scss */
 .exp_item:hover {
   box-shadow: 0 0 38px rgba(0, 0, 0, 0.18) inset;
   margin: 5%;
   transition: all .25s ease;
 }
 
-/* line 128, ../sass/app.scss */
-.project_top {
-  background-color: #ffffff;
-  overflow: hidden;
-}
-
-/* line 132, ../sass/app.scss */
-.project_bottom {
-  background-color: #ffffff;
-  overflow: hidden;
-}
-
-/* line 136, ../sass/app.scss */
-.project_top_left {
-  width: 66%;
-  float: left;
-  overflow: hidden;
-}
-
-/* line 141, ../sass/app.scss */
-.project_top_left_1 {
-  border: 1px solid #efefef;
-  overflow: hidden;
-}
-
-/* line 145, ../sass/app.scss */
-.project_top_left_2 {
-  border: 1px solid #efefef;
-  overflow: hidden;
-}
-
-/* line 149, ../sass/app.scss */
-.project_top_right {
-  border: 1px solid #efefef;
-  width: 34%;
-  float: left;
-  overflow: hidden;
-}
-/* line 154, ../sass/app.scss */
-.project_top_right img {
-  width: 98%;
-}
-
-/* line 158, ../sass/app.scss */
-.project_bottom_left {
-  width: 66%;
-  float: left;
-  overflow: hidden;
-}
-
-/* line 163, ../sass/app.scss */
-.project_bottom_left_1 {
-  width: 50%;
-  float: left;
-  border: 1px solid #efefef;
-  overflow: hidden;
-}
-
-/* line 169, ../sass/app.scss */
-.project_bottom_left_2 {
-  width: 50%;
-  float: left;
-  border: 1px solid #efefef;
-  overflow: hidden;
-}
-
-/* line 175, ../sass/app.scss */
-.project_bottom_right {
-  width: 34%;
-  float: left;
-  border: 1px solid #efefef;
-  overflow: hidden;
-}
-
-/* line 189, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 .project_left {
-  width: 66.6%;
+  width: 66.7%;
   float: left;
   background-color: #ffffff;
 }
 
-/* line 194, ../sass/app.scss */
+/* line 111, ../sass/app.scss */
 .project_right {
-  width: 33.4%;
+  width: 33.3%;
   float: right;
   background-color: #ffffff;
 }
 
-/* line 200, ../sass/app.scss */
+/* line 117, ../sass/app.scss */
 .project_left_top {
   width: 100%;
 }
 
-/* line 203, ../sass/app.scss */
+/* line 120, ../sass/app.scss */
 .project_left_bottom {
   width: 100%;
 }
 
-/* line 207, ../sass/app.scss */
+/* line 124, ../sass/app.scss */
 .project_right_top {
   border: 1px solid #efefef;
   border-left: none;
@@ -199,50 +129,54 @@ footer {
   overflow: hidden;
 }
 
-/* line 222, ../sass/app.scss */
+/* line 135, ../sass/app.scss */
 .project_right_bottom {
   border: 1px solid #efefef;
   border-top: none;
+  border-bottom: none;
   border-left: none;
   width: 100%;
   float: right;
-  height: 405px;
 }
 
-/* line 233, ../sass/app.scss */
+/* line 145, ../sass/app.scss */
 .project_left_top_1 {
   border: 1px solid #efefef;
   width: 100%;
 }
 
-/* line 242, ../sass/app.scss */
+/* line 154, ../sass/app.scss */
 .project_left_top_2 {
   border: 1px solid #efefef;
   border-top: none;
+  border-bottom: none;
   width: 100%;
 }
 
-/* line 251, ../sass/app.scss */
+/* line 162, ../sass/app.scss */
 .project_left_bottom_1 {
   border: 1px solid #efefef;
-  border-top: none;
+  border-bottom: none;
   width: 50%;
   float: left;
-  height: 405px;
 }
 
-/* line 261, ../sass/app.scss */
+/* line 171, ../sass/app.scss */
 .project_left_bottom_2 {
   border: 1px solid #efefef;
-  border-top: none;
+  border-bottom: none;
   border-left: none;
   width: 50%;
   float: left;
-  height: 405px;
 }
 
-/* line 272, ../sass/app.scss */
+/* line 181, ../sass/app.scss */
 .project_item:hover {
-  box-shadow: 0 0 38px rgba(0, 0, 0, 0.18) inset;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.38) inset;
   transition: all .15s ease;
+}
+
+/* line 189, ../sass/app.scss */
+.foot_content {
+  padding: 12px;
 }

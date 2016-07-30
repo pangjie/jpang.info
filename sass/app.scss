@@ -5,6 +5,7 @@ $content-border: #efefef;
 $item-border: #efefef;
 
 body {
+	width: 100%;
 }
 
 div {
@@ -19,13 +20,13 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, ca
 
 img {
 	max-width: 100%;
-	max-height: 100%;
-	min-height: 100%;
-	// height: auto;
+	// max-height: 100%;
+	// min-height: 100%;
+	height: auto;
 }
 
 footer {
-	height: 200px;
+	height: 400px;
 	background-color: #000000;
 	color: #ffffff;
 }
@@ -37,13 +38,14 @@ footer {
 	overflow: hidden;
 	padding: 0px;
 	// min-width: 1140px;
+	// max-width: 960px;
 }
 
 .home {
 	position: relative;
 	clear: both;
-	// max-width: 960px;
-	max-width: 1120px;
+	max-width: 960px;
+	// max-width: 1120px;
 	// min-width: 1120px;
 	margin: 0px auto;
 }
@@ -56,7 +58,8 @@ footer {
     margin-left: 12px;
     margin-right: 12px;
     border-radius: 12px;
-    border: 1px solid $content-border;
+    margin-bottom: 12px;
+    // border: 1px solid $content-border;
     border-color: rgba(0,0,0,.14);
     box-shadow: 0 3px 8px -6px rgba(0,0,0,.1);
 }
@@ -95,104 +98,18 @@ footer {
 	transition: all .25s ease;
 }
 
-// #sina:hover {
-// 	#sina_disc {
-// 		display: block;
-// 		-webkit-animation: disc_popup 1s infinite;
-// 	}
-// 	.exp_item {
-// 		box-shadow: 0 0 38px rgba(0.1,0.1,0.1,.18) inset;
-// 		margin: 5%;  
-// 		transition: all .25s ease;
-// 	}
-// }
-
-// #sina_disc {
-// 	width: 33%;
-// 	// height: 100%;
-// 	display: none;
-// 	position: absolute;
-// 	z-index: 2;
-// 	right: 115%;
-// 	left: 0px;
-// 	top: 35%;
-// 	bottom: 0px;
-// 	border: 1px solid #000000;
-// 	text-align: center;
-// }
-
 .project {
 	// width: 100%;
+	// margin-bottom: 24px;
 }
-
-.project_top {
-	background-color: #ffffff;
-	overflow: hidden;
-}
-.project_bottom {
-	background-color: #ffffff;
-	overflow: hidden;
-}
-.project_top_left {
-	width: 66%;
-	float: left;
-	overflow: hidden;
-}
-.project_top_left_1 {
-	border: 1px solid $item-border;
-	overflow: hidden;
-}
-.project_top_left_2 {
-	border: 1px solid $item-border;
-	overflow: hidden;
-}
-.project_top_right {
-	border: 1px solid $item-border;
-	width: 34%;
-	float: left;
-	overflow: hidden;
-	img {
-		width: 98%;
-	}
-}
-.project_bottom_left {
-	width: 66%;
-	float: left;
-	overflow: hidden;
-}
-.project_bottom_left_1 {
-	width: 50%;
-	float: left;
-	border: 1px solid $item-border;
-	overflow: hidden;
-}
-.project_bottom_left_2 {
-	width: 50%;
-	float: left;
-	border: 1px solid $item-border;
-	overflow: hidden;
-}
-.project_bottom_right {
-	width: 34%;
-	float: left;
-	border: 1px solid $item-border;
-	overflow: hidden;
-}
-
-
-
-
-
-
-
 
 .project_left {
-	width: 66.6%;
+	width: 66.7%;
 	float: left;
 	background-color: #ffffff;
 }
 .project_right {
-	width: 33.4%;
+	width: 33.3%;
 	float: right;
 	background-color: #ffffff;
 }
@@ -213,21 +130,16 @@ footer {
 	width: 100%;
 	float: left;
 	// height: 640px;
-	img {
-		// width: 97%;
-		// max-height: 100%;
-	}
 	overflow: hidden;
 }
 .project_right_bottom {
 	border: 1px solid $item-border;
 	border-top: none;
-	// border-bottom: none;
+	border-bottom: none;
 	border-left: none;
 	// border-right: none;
 	width: 100%;
 	float: right;
-	height: 405px;
 }
 
 .project_left_top_1 {
@@ -242,36 +154,38 @@ footer {
 .project_left_top_2 {
 	border: 1px solid $item-border;
 	border-top: none;
-	// border-bottom: none;
+	border-bottom: none;
 	// border-left: none;
 	// border-right: none;
 	width: 100%;
-	// height: 320px;
 }
 .project_left_bottom_1 {
 	border: 1px solid $item-border;
-	border-top: none;
-	// border-bottom: none;
+	// border-top: none;
+	border-bottom: none;
 	// border-left: none;
 	// border-right: none;
 	width: 50%;
 	float: left;
-	height: 405px;
 }
 .project_left_bottom_2 {
 	border: 1px solid $item-border;
-	border-top: none;
-	// border-bottom: none;
+	// border-top: none;
+	border-bottom: none;
 	border-left: none;
 	// border-right: none;
 	width: 50%;
 	float: left;
-	height: 405px;
 }
 
 .project_item:hover {
-	box-shadow: 0 0 38px rgba(0.1,0.1,0.1,.18) inset;
-	transition: all .15s ease;
-	
+	box-shadow: 0 0 18px rgba(0.1,0.1,0.1,.38) inset;
+	// .label {
+	// 	height: 100px;
+	// }
+	transition: all .15s ease;	
 }
 
+.foot_content {
+	padding: 12px;
+}
