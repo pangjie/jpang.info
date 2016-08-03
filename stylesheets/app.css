@@ -23,17 +23,19 @@ img {
 
 /* line 29, ../sass/app.scss */
 footer {
-  height: 400px;
-  background-color: #000000;
+  background-color: #282828;
   color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  padding: 0px;
 }
 
-/* line 35, ../sass/app.scss */
+/* line 38, ../sass/app.scss */
 a {
   cursor: pointer;
 }
 
-/* line 39, ../sass/app.scss */
+/* line 42, ../sass/app.scss */
 .main_content {
   background-color: #ededed;
   margin-top: 51px;
@@ -42,7 +44,7 @@ a {
   padding: 0px;
 }
 
-/* line 49, ../sass/app.scss */
+/* line 52, ../sass/app.scss */
 .home {
   position: relative;
   clear: both;
@@ -50,7 +52,7 @@ a {
   margin: 0px auto;
 }
 
-/* line 58, ../sass/app.scss */
+/* line 61, ../sass/app.scss */
 .sub_content {
   position: relative;
   overflow: hidden;
@@ -63,12 +65,12 @@ a {
   box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
 }
 
-/* line 72, ../sass/app.scss */
+/* line 75, ../sass/app.scss */
 .skill {
   background-color: #ffffff;
 }
 
-/* line 80, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -79,36 +81,36 @@ a {
   z-index: 300;
 }
 
-/* line 92, ../sass/app.scss */
+/* line 95, ../sass/app.scss */
 .project_item:hover .dropdown-content {
   display: block;
 }
 
-/* line 101, ../sass/app.scss */
+/* line 104, ../sass/app.scss */
 .project_left {
   width: 66.6669%;
   float: left;
   background-color: #ffffff;
 }
 
-/* line 106, ../sass/app.scss */
+/* line 109, ../sass/app.scss */
 .project_right {
   width: 33.33331%;
   float: right;
   background-color: #ffffff;
 }
 
-/* line 112, ../sass/app.scss */
+/* line 115, ../sass/app.scss */
 .project_left_top {
   width: 100%;
 }
 
-/* line 115, ../sass/app.scss */
+/* line 118, ../sass/app.scss */
 .project_left_bottom {
   width: 100%;
 }
 
-/* line 119, ../sass/app.scss */
+/* line 122, ../sass/app.scss */
 .project_right_top {
   border: 1px solid #efefef;
   border-left: none;
@@ -117,7 +119,7 @@ a {
   overflow: hidden;
 }
 
-/* line 130, ../sass/app.scss */
+/* line 133, ../sass/app.scss */
 .project_right_bottom {
   border: 1px solid #efefef;
   border-top: none;
@@ -127,13 +129,13 @@ a {
   float: right;
 }
 
-/* line 140, ../sass/app.scss */
+/* line 143, ../sass/app.scss */
 .project_left_top_1 {
   border: 1px solid #efefef;
   width: 100%;
 }
 
-/* line 149, ../sass/app.scss */
+/* line 152, ../sass/app.scss */
 .project_left_top_2 {
   border: 1px solid #efefef;
   border-top: none;
@@ -141,7 +143,7 @@ a {
   width: 100%;
 }
 
-/* line 157, ../sass/app.scss */
+/* line 160, ../sass/app.scss */
 .project_left_bottom_1 {
   border: 1px solid #efefef;
   border-bottom: none;
@@ -149,7 +151,7 @@ a {
   float: left;
 }
 
-/* line 166, ../sass/app.scss */
+/* line 169, ../sass/app.scss */
 .project_left_bottom_2 {
   border: 1px solid #efefef;
   border-bottom: none;
@@ -158,13 +160,98 @@ a {
   float: left;
 }
 
-/* line 176, ../sass/app.scss */
+/* line 179, ../sass/app.scss */
 .project_item:hover {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.38) inset;
   transition: all .15s ease;
 }
 
-/* line 184, ../sass/app.scss */
-.foot_content {
-  padding: 12px;
+/* line 187, ../sass/app.scss */
+.contact {
+  background-color: #ffffff;
+}
+
+/* line 191, ../sass/app.scss */
+.contact_left {
+  width: 50%;
+  float: left;
+  border: 1px solid #efefef;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+/* line 201, ../sass/app.scss */
+.contact_right {
+  width: 50%;
+  float: left;
+  border: 1px solid #efefef;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+/* line 211, ../sass/app.scss */
+.contact_item:hover {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.38) inset;
+  transition: all .15s ease;
+}
+
+/* line 219, ../sass/app.scss */
+.footer_title {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+/* line 224, ../sass/app.scss */
+.collection {
+  position: relative;
+  clear: both;
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+/* line 231, ../sass/app.scss */
+.collection_item {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+
+/* line 237, ../sass/app.scss */
+.national_park {
+  border: 1px dashed #efefef;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+/* line 244, ../sass/app.scss */
+.book {
+  border: 1px dashed #efefef;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+/* line 251, ../sass/app.scss */
+.game {
+  border: 1px dashed #efefef;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+/* line 258, ../sass/app.scss */
+.collection_item_title {
+  text-align: center;
+  padding-left: 0px;
+}
+
+/* line 263, ../sass/app.scss */
+.collection_item_content {
+  padding-left: 30px;
+  text-align: left;
 }

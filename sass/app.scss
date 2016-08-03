@@ -27,9 +27,12 @@ img {
 }
 
 footer {
-	height: 400px;
-	background-color: #000000;
+	// height: 480px;
+	background-color: #282828;
 	color: #ffffff;
+	text-align: center;
+	overflow: hidden;
+	padding: 0px;
 }
 
 a {
@@ -181,6 +184,83 @@ a {
 	transition: all .15s ease;	
 }
 
-.foot_content {
-	padding: 12px;
+.contact {
+	background-color: #ffffff;
+}
+
+.contact_left {
+	width: 50%;
+	float: left;
+	border: 1px solid $item-border;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+.contact_right {
+	width: 50%;
+	float: left;
+	border: 1px solid $item-border;
+	border-top: none;
+	border-bottom: none;
+	// border-left: none;
+	border-right: none;
+}
+
+.contact_item:hover {
+	box-shadow: 0 0 18px rgba(0.1,0.1,0.1,.38) inset;
+	// .label {
+	// 	height: 100px;
+	// }
+	transition: all .15s ease;	
+}
+
+.footer_title {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.collection {
+	position: relative;
+	clear: both;
+	max-width: 960px;
+	margin: 0px auto;
+}
+
+.collection_item {
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+
+.national_park {
+	border: 1px dashed $item-border;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	// border-right: none;
+}
+.book {
+	border: 1px dashed $item-border;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+.game {
+	border: 1px dashed $item-border;
+	border-top: none;
+	border-bottom: none;
+	// border-left: none;
+	border-right: none;
+}
+.collection_item_title {
+	text-align: center;
+	padding-left: 0px;
+}
+
+.collection_item_content {
+	padding-left: 30px;
+	text-align: left;
 }
