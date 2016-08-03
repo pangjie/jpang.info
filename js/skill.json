@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {"id": "jpang", "group": 1},
+    {"id": "html", "group": 1},
+    {"id": "css", "group": 1},
+    {"id": "mysql", "group": 1}
+  ],
+  "links": [
+    {"source": "html", "target": "jpang", "value": 1},
+    {"source": "css", "target": "jpang", "value": 1},
+    {"source": "mysql", "target": "jpang", "value": 1}
+  ]
+}
