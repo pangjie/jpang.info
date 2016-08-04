@@ -2,7 +2,6 @@
 
 angular
 .module('jpangApp')
-
 .service('anchorSmoothScroll', function(){
 
 	this.scrollTo = function(eID) {
