@@ -18,8 +18,6 @@
 	<script src="js/app.js"></script>
 	<script src="js/controller.js"></script>
 	<script src="js/service.js"></script>
-
-	<!-- <script src="js/radarChart.js"></script>	 -->
 </head>
 <body>
 	<nav role="navigation" class="navbar navbar-inverse navbar-fixed-top" ng-controller="ScrollCtrl">
@@ -40,8 +38,8 @@
 				<li ng-class="{active: $state.includes('exp')}"><a ui-sref="exp" ng-click="gotoElement('exp')">Experience</a></li>
 				<li ng-class="{active: $state.includes('project')}"><a ui-sref="project" ng-click="gotoElement('project')">Porject</a></li>
 				<li ng-class="{active: $state.includes('contact')}"><a ui-sref="contact" ng-click="gotoElement('contact')">Contact</a></li>
-<!-- 				<li ng-class="{active: $state.includes('contact')}"><a ui-sref="contact">Contact</a></li>
-				<li ng-class="{active: $state.includes('about')}"><a ui-sref="about">About Us</a></li> -->
+				<li ng-class="{active: $state.includes('github')}"><a target="_blank" href="https://github.com/pangjie">Github</a></li>
+				<!-- <li ng-class="{active: $state.includes('about')}"><a ui-sref="about">About Us</a></li> -->
 			</ul>
 		</div>
 		<div id="mobile_nav" class="collapse navbar-collapse">
@@ -61,10 +59,10 @@
 				<li ng-class="{active: $state.includes('contact')}">
 					<a class="visible-xs" data-toggle="collapse" data-target="#mobile_nav" ui-sref="contact" ng-click="gotoElement('contact')">Contact</a>
 				</li>
-<!-- 				<li ng-class="{active: $state.includes('contact')}">
-					<a class="visible-xs" data-toggle="collapse" data-target="#mobile_nav"  ui-sref="contact">Contact</a>
+				<li ng-class="{active: $state.includes('github')}">
+					<a target="_blank" class="visible-xs" data-toggle="collapse" data-target="#mobile_nav" href="https://github.com/pangjie">Github</a>
 				</li>
-				<li ng-class="{active: $state.includes('about')}">
+<!-- 				<li ng-class="{active: $state.includes('about')}">
 					<a class="visible-xs" data-toggle="collapse" data-target="#mobile_nav"  ui-sref="about">About Us</a>
 				</li> -->
 			</ul>
@@ -84,41 +82,27 @@
 				<h4>National Park</h4>
 			</div>
 			<div class="collection_item_content">
-			<input type="checkbox" checked>Princess Coding</br>
-
-			<input type="checkbox" checked>Super Mario 2 Coin</br>
-
-			<input type="checkbox" checked>Fire Emblem</br>
-
-			<input type="checkbox" checked>塞尔达：三角神力</br>
-
-			<input type="checkbox" checked>口袋妖怪 Y</br>
-
-			<input type="checkbox" checked>BRAVELY DEFAULT</br>
-
-			<input type="checkbox" checked>DONKEY KONG - Returns</br>
-
-			<input type="checkbox" checked>Monster Hunter 3G</br>
-
-			<input type="checkbox" checked>One Piece Unlimited Red</br>
-
-			<input type="checkbox" checked>Harvest Moon 3D</br>
-
-			<input type="checkbox" checked>Monster Hunter 4U</br>
-
-			<input type="checkbox" checked>节奏天国</br>
-
-			<input type="checkbox" checked>Fire Emblem: if</br>
-
-			<input type="checkbox" checked>Monster hunter X</br>
-
-			<input type="checkbox" checked>Isam</br>
-
-			<input type="checkbox" checked>塞尔达：三角神力3 （三人合作）</br>
-
-			<input type="checkbox" checked>塞尔达无双：海拉尔的XXX</br>
-
-			<input type="checkbox" checked>星之卡比</br>
+				<input type="checkbox" checked> Acadia National Park</br>
+				<input type="checkbox" checked> Yellow Stone National Park</br>
+				<input type="checkbox" checked> Targhee National Forest</br>
+				<input type="checkbox" checked> Grand Teton National Park</br>
+				<input type="checkbox" checked> Great Smoky Mpuntains National Park</br>
+				<input type="checkbox"> Yosemite National Park</br>
+				<input type="checkbox"> Grand Canyon National Park</br>
+				<input type="checkbox"> Zion National Park</br>
+				<input type="checkbox"> Hawaii Volcanoes National Park</br>
+				<input type="checkbox"> Bryce Canyon National Park</br>
+				<input type="checkbox"> Glacier National Park</br>
+				<input type="checkbox"> Joshua Tree National Park</br>
+				<input type="checkbox"> Mt. Rainier National Park</br>
+				<input type="checkbox"> Sequoia National Park</br>
+				<input type="checkbox"> Arches National Park</br>
+				<input type="checkbox"> Rocky Mountains National Park</br>
+				<input type="checkbox"> Olympic National Park</br>
+				<input type="checkbox"> Haleakala National Park</br>
+				<input type="checkbox"> Badlands National Park</br>
+				<input type="checkbox"> Cuyahoga Valley National Park</br>
+				<input type="checkbox"> Hot Springs National Park</br>
 			</div>
 		</div>
 		<div class="collection_item book">
@@ -126,64 +110,33 @@
 				<h4>Book</h4>
 			</div>
 			<div class="collection_item_content">
-
-			<input type="checkbox" checked>《一路去死》 那多 </br>
-
-			<input type="checkbox" checked>《喂食者协会》 那多 </br>
-
-			<input type="checkbox" checked>《三十六大》 冯唐 豆瓣阅读 旧文 </br>
-
-			<input type="checkbox" checked>《巴黎烧了么？》 </br>
-
-			<input type="checkbox" checked>《日本AV影像史》藤木 </br>
-
-			<input type="checkbox" checked>《1980年代的爱情》野夫 </br>
-
-			<input type="checkbox" checked> 《乡关何处》野夫 </br>
-
-			<input type="checkbox" checked> 《身边的江湖》野夫 </br>
-
-			<input type="checkbox" checked>《猫力乱步》猫力 豆瓣阅读 </br>
-
-			<input type="checkbox" checked>《世界尽头》那多 虎头蛇尾 </br>
-
-			<input type="checkbox" checked>《一个很高兴见到你》韩寒监制 豆瓣阅读 </br>
-
-			<input type="checkbox" checked>《所有人问所有人》韩寒监制 豆瓣阅读 </br>
-
-			<input type="checkbox" checked>《MacTalk》 池建强 豆瓣阅读 </br>
-
-			<input type="checkbox" checked>《我讲个笑话，你可别哭》 囧哥 豆瓣阅读 </br>
-
-			<input type="checkbox" checked>《7天治愈拖延症》 丁小云 豆瓣阅读 </br>
-
-			<input type="checkbox" checked>《美好百科One》王欢欢 豆瓣阅读 </br>
-
-			<input type="checkbox" checked>《美好百科Two》王欢欢 豆瓣阅读 </br>
-
-			<input type="checkbox" checked>《The Tipping Point》Kindle </br>
-
-			<input type="checkbox" checked>《Objective C Programming》Kindle </br>
-
-			<input type="checkbox" checked> Blown Covers </br>
-
-			<input type="checkbox" checked> 《民国吃家》 </br>
-
-			<input type="checkbox" checked> 《去你家玩好吗》一个 </br>
-
-			<input type="checkbox" checked> 《想得美》 一个 </br>
-
-			<input type="checkbox" checked> 《素女经》冯唐 </br>
-
-			<input type="checkbox" checked>《美好百科Two》王欢欢 豆瓣阅读 </br>
-
-			<input type="checkbox" checked> 《美好百科Three》王欢欢 豆瓣阅读 </br>
-
-			<input type="checkbox" checked> 《我爱问连岳5》连岳 </br>
-
-			<input type="checkbox" checked> 《Beijing Beijing》冯唐 </br>
-
-			<input type="checkbox" checked> 《至味在人间》陈晓卿 </br>
+				<input type="checkbox" checked> MacTalk</br>
+				<input type="checkbox" checked> The Tipping Point</br>
+				<input type="checkbox" checked> Blown Covers</br>
+				<input type="checkbox" checked> Beijing Beijing</br>
+				<input type="checkbox" checked> Fanny Hill</br>
+				<p></p>
+				<input type="checkbox" checked> 三十六大</br>
+				<input type="checkbox" checked> 巴黎烧了么</br>
+				<input type="checkbox" checked> 1980年代的爱情 野夫</br>
+				<input type="checkbox" checked> 乡关何处 野夫</br>
+				<input type="checkbox" checked> 身边的江湖 野夫</br>
+				<input type="checkbox" checked> 猫力乱步 猫力</br>
+				<input type="checkbox" checked> 世界尽头 那多</br>
+				<input type="checkbox" checked> 一个很高兴见到你 韩寒监制</br>
+				<input type="checkbox" checked> 所有人问所有人 韩寒监制</br>
+				<input type="checkbox" checked> 我讲个笑话，你可别哭  囧哥</br>
+				<input type="checkbox" checked> 美好百科One 王欢欢</br>
+				<input type="checkbox" checked> 美好百科Two 王欢欢</br>
+				<input type="checkbox" checked> 长歌行 夏达</br>
+				<input type="checkbox" checked> 民国吃家</br>
+				<input type="checkbox" checked> 去你家玩好吗</br>
+				<input type="checkbox" checked> 想得美</br>
+				<input type="checkbox" checked> 素女经 冯唐</br>
+				<input type="checkbox" checked> 美好百科Two 王欢欢</br>
+				<input type="checkbox" checked> 美好百科Three 王欢欢</br>
+				<input type="checkbox" checked> 我爱问连岳5 连岳</br>
+				<input type="checkbox" checked> 至味在人间 陈晓卿</br>
 			</div>
 		</div>
 		<div class="collection_item game">
@@ -191,67 +144,30 @@
 			<h4>Game</h4>
 		</div>
 			<div class="collection_item_content">
-			<input type="checkbox" checked> Blood born - The old hunter </br>
-
-			<input type="checkbox" checked> Metal Gear Solid V </br>
-
-			<input type="checkbox" checked> Fallout 4 </br>
-
-			<input type="checkbox" checked> Don’t starve </br>
-
-			<input type="checkbox" checked> 光之子 </br>
-
-			<input type="checkbox" checked> 三国战记 </br>
-
-			<input type="checkbox" checked> Dark Soul 3 </br>
-
-			<input type="checkbox" checked> 奥丁领域 </br>
-
-			<input type="checkbox" checked> 坦克世界 </br>
-
-			<input type="checkbox" checked> 魔兽世界@台服 </br>
-
-			<input type="checkbox" checked> 魔兽世界@国服 </br>
-
-			<input type="checkbox" checked> 暗黑破坏神III </br>
-
-			<input type="checkbox" checked> Dota2@stream </br>
-
-			<input type="checkbox" checked> 炉石战记@台服/美服/国服 </br>
-
-			<input type="checkbox" checked> 生化奇兵-无限城 </br>
-
-			<input type="checkbox" checked> 暗黑破坏神III 夺魂之镰 </br>
-
-			<input type="checkbox" checked> 巫师 </br>
-
-			<input type="checkbox" checked> 巫师2 </br>
-
-			<input type="checkbox" checked> Don’t Starve </br>
-
-			<input type="checkbox" checked> Don’t Starve together </br>
-
-			<input type="checkbox" checked> Borderlands: The Pre-Sequel </br>
-
-			<input type="checkbox" checked> Titan Souls </br>
-
-			<input type="checkbox" checked> Tomb Raider 9 </br>
-
-			<input type="checkbox" checked> Transistor </br>
-
-			<input type="checkbox" checked> Banter the Gungeon </br>
-
-			<input type="checkbox" checked> Game Dev Tycoon </br>
-
-			<input type="checkbox" checked> Hearts of Iron IV </br>
-
-			<input type="checkbox" checked> Jotun </br>
-
-			<input type="checkbox" checked> Darkest Dungeo </br>
-
-			<input type="checkbox" checked> Stared Valley </br>
+				<input type="checkbox" checked> The Lengend of Zelda</br>
+				<input type="checkbox" checked> Monster Hunter X</br>
+				<input type="checkbox" checked> Blood born: The old hunter </br>
+				<input type="checkbox" checked> The Witcher 3 </br>
+				<input type="checkbox" checked> Metal Gear Solid V </br>
+				<input type="checkbox" checked> Fallout 4 </br>
+				<input type="checkbox" checked> Don’t starve </br>
+				<input type="checkbox" checked> The son of light </br>
+				<input type="checkbox" checked> Dark Soul 3 </br>
+				<input type="checkbox" checked> Odin Sphere </br>
+				<input type="checkbox" checked> BioShock</br>			
+				<input type="checkbox" checked> Don’t Starve together </br>
+				<input type="checkbox" checked> Borderlands </br>
+				<input type="checkbox" checked> Titan Souls </br>
+				<input type="checkbox" checked> Tomb Raider 9 </br>
+				<input type="checkbox" checked> Transistor </br>
+				<input type="checkbox" checked> Banter the Gungeon </br>
+				<input type="checkbox" checked> Jotun </br>
+				<input type="checkbox" checked> Darkest Dungeo </br>
 			</div>
 		</div>
+	</div>
+	<div class="bottom_block">
+		
 	</div>
 </footer>
 

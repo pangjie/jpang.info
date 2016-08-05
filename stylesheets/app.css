@@ -56,11 +56,11 @@ a {
 .sub_content {
   position: relative;
   overflow: hidden;
-  margin-top: 22px;
-  margin-left: 22px;
-  margin-right: 22px;
-  border-radius: 22px;
-  margin-bottom: 22px;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 12px;
+  margin-bottom: 12px;
   border-color: rgba(0, 0, 0, 0.14);
   box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
 }
@@ -201,7 +201,7 @@ a {
 /* line 219, ../sass/app.scss */
 .footer_title {
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 /* line 224, ../sass/app.scss */
@@ -254,4 +254,14 @@ a {
 .collection_item_content {
   padding-left: 30px;
   text-align: left;
+}
+
+/* line 268, ../sass/app.scss */
+.bottom_block {
+  height: 30px;
+}
+
+/* line 272, ../sass/app.scss */
+.top_block {
+  height: 10px;
 }

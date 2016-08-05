@@ -62,11 +62,11 @@ a {
     position: relative;
     overflow: hidden;
     // padding-top: 1px;
-    margin-top: 22px;
-    margin-left: 22px;
-    margin-right: 22px;
-    border-radius: 22px;
-    margin-bottom: 22px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 12px;
+    margin-bottom: 12px;
     // border: 1px solid $content-border;
     border-color: rgba(0,0,0,.14);
     box-shadow: 0 3px 8px -6px rgba(0,0,0,.1);
@@ -218,7 +218,7 @@ a {
 
 .footer_title {
 	padding-top: 20px;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 }
 
 .collection {
@@ -263,4 +263,12 @@ a {
 .collection_item_content {
 	padding-left: 30px;
 	text-align: left;
+}
+
+.bottom_block {
+	height: 30px;
+}
+
+.top_block {
+	height: 10px;
 }
