@@ -1,27 +1,27 @@
-/* line 8, ../sass/app.scss */
+/* line 7, ../sass/app.scss */
 body {
   width: 100%;
 }
 
-/* line 12, ../sass/app.scss */
+/* line 11, ../sass/app.scss */
 div {
   display: block;
   overflow: hidden;
 }
 
-/* line 17, ../sass/app.scss */
+/* line 16, ../sass/app.scss */
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
   margin: 0;
   padding: 0;
 }
 
-/* line 22, ../sass/app.scss */
+/* line 21, ../sass/app.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 29, ../sass/app.scss */
+/* line 28, ../sass/app.scss */
 footer {
   background-color: #282828;
   color: #ffffff;
@@ -30,12 +30,12 @@ footer {
   padding: 0px;
 }
 
-/* line 38, ../sass/app.scss */
+/* line 37, ../sass/app.scss */
 a {
   cursor: pointer;
 }
 
-/* line 42, ../sass/app.scss */
+/* line 41, ../sass/app.scss */
 .main_content {
   background-color: #ededed;
   margin-top: 51px;
@@ -44,7 +44,7 @@ a {
   padding: 0px;
 }
 
-/* line 52, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 .home {
   position: relative;
   clear: both;
@@ -52,7 +52,7 @@ a {
   margin: 0px auto;
 }
 
-/* line 61, ../sass/app.scss */
+/* line 60, ../sass/app.scss */
 .sub_content {
   position: relative;
   overflow: hidden;
@@ -65,12 +65,12 @@ a {
   box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
 }
 
-/* line 75, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
 .skill {
   background-color: #ffffff;
 }
 
-/* line 83, ../sass/app.scss */
+/* line 82, ../sass/app.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -81,36 +81,36 @@ a {
   z-index: 300;
 }
 
-/* line 95, ../sass/app.scss */
+/* line 94, ../sass/app.scss */
 .project_item:hover .dropdown-content {
   display: block;
 }
 
-/* line 104, ../sass/app.scss */
+/* line 103, ../sass/app.scss */
 .project_left {
   width: 66.6669%;
   float: left;
   background-color: #ffffff;
 }
 
-/* line 109, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 .project_right {
   width: 33.33331%;
   float: right;
   background-color: #ffffff;
 }
 
-/* line 115, ../sass/app.scss */
+/* line 114, ../sass/app.scss */
 .project_left_top {
   width: 100%;
 }
 
-/* line 118, ../sass/app.scss */
+/* line 117, ../sass/app.scss */
 .project_left_bottom {
   width: 100%;
 }
 
-/* line 122, ../sass/app.scss */
+/* line 121, ../sass/app.scss */
 .project_right_top {
   border: 1px solid #efefef;
   border-left: none;
@@ -119,7 +119,7 @@ a {
   overflow: hidden;
 }
 
-/* line 133, ../sass/app.scss */
+/* line 132, ../sass/app.scss */
 .project_right_bottom {
   border: 1px solid #efefef;
   border-top: none;
@@ -129,13 +129,13 @@ a {
   float: right;
 }
 
-/* line 143, ../sass/app.scss */
+/* line 142, ../sass/app.scss */
 .project_left_top_1 {
   border: 1px solid #efefef;
   width: 100%;
 }
 
-/* line 152, ../sass/app.scss */
+/* line 151, ../sass/app.scss */
 .project_left_top_2 {
   border: 1px solid #efefef;
   border-top: none;
@@ -143,7 +143,7 @@ a {
   width: 100%;
 }
 
-/* line 160, ../sass/app.scss */
+/* line 159, ../sass/app.scss */
 .project_left_bottom_1 {
   border: 1px solid #efefef;
   border-bottom: none;
@@ -151,7 +151,7 @@ a {
   float: left;
 }
 
-/* line 169, ../sass/app.scss */
+/* line 168, ../sass/app.scss */
 .project_left_bottom_2 {
   border: 1px solid #efefef;
   border-bottom: none;
@@ -160,18 +160,18 @@ a {
   float: left;
 }
 
-/* line 179, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
 .project_item:hover {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.38) inset;
   transition: all .15s ease;
 }
 
-/* line 187, ../sass/app.scss */
+/* line 186, ../sass/app.scss */
 .contact {
   background-color: #ffffff;
 }
 
-/* line 191, ../sass/app.scss */
+/* line 190, ../sass/app.scss */
 .contact_left {
   width: 50%;
   float: left;
@@ -182,7 +182,7 @@ a {
   border-right: none;
 }
 
-/* line 201, ../sass/app.scss */
+/* line 200, ../sass/app.scss */
 .contact_right {
   width: 50%;
   float: left;
@@ -192,19 +192,19 @@ a {
   border-right: none;
 }
 
-/* line 211, ../sass/app.scss */
+/* line 210, ../sass/app.scss */
 .contact_item:hover {
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.38) inset;
   transition: all .15s ease;
 }
 
-/* line 219, ../sass/app.scss */
+/* line 218, ../sass/app.scss */
 .footer_title {
   padding-top: 20px;
   padding-bottom: 25px;
 }
 
-/* line 224, ../sass/app.scss */
+/* line 223, ../sass/app.scss */
 .collection {
   position: relative;
   clear: both;
@@ -212,14 +212,14 @@ a {
   margin: 0px auto;
 }
 
-/* line 231, ../sass/app.scss */
+/* line 230, ../sass/app.scss */
 .collection_item {
   width: 33.333%;
   float: left;
   text-align: center;
 }
 
-/* line 237, ../sass/app.scss */
+/* line 236, ../sass/app.scss */
 .national_park {
   border: 1px dashed #efefef;
   border-top: none;
@@ -227,7 +227,7 @@ a {
   border-left: none;
 }
 
-/* line 244, ../sass/app.scss */
+/* line 243, ../sass/app.scss */
 .book {
   border: 1px dashed #efefef;
   border-top: none;
@@ -236,7 +236,7 @@ a {
   border-right: none;
 }
 
-/* line 251, ../sass/app.scss */
+/* line 250, ../sass/app.scss */
 .game {
   border: 1px dashed #efefef;
   border-top: none;
@@ -244,24 +244,24 @@ a {
   border-right: none;
 }
 
-/* line 258, ../sass/app.scss */
+/* line 257, ../sass/app.scss */
 .collection_item_title {
   text-align: center;
   padding-left: 0px;
 }
 
-/* line 263, ../sass/app.scss */
+/* line 262, ../sass/app.scss */
 .collection_item_content {
   padding-left: 30px;
   text-align: left;
 }
 
-/* line 268, ../sass/app.scss */
+/* line 267, ../sass/app.scss */
 .bottom_block {
   height: 30px;
 }
 
-/* line 272, ../sass/app.scss */
+/* line 271, ../sass/app.scss */
 .top_block {
   height: 10px;
 }
